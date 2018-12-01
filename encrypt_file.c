@@ -20,7 +20,7 @@ void read_from_file(void) {
     printf("Enter the name of the file to be encrypted: ");
     fgets(file_name, MAX_FILE_SIZE, stdin);
 
-    printf("%lu", strlen(file_name));
+    file_name[strcspn(file_name, "\n")] = 0;
 
     /* Checking if there are any errors in opening */
     if((file = fopen(file_name, "rb")) == NULL) {
@@ -46,9 +46,6 @@ void read_from_file(void) {
         printf("Error reading file.\n");
         exit(EXIT_FAILURE);
     }
-
-    /* Closing the file stream */
-    fclose(file);
 
     /* Creating a new file with the ".enc" extension */
     char *cipher_text = encrypt_text(text);

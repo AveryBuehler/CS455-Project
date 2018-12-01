@@ -18,7 +18,7 @@ void read_from_keyboard(void) {
     }
 
     /* Asking for a message */
-    printf("Enter a messagE: ");
+    printf("Enter a message: ");
 
     /* Gets the message up to 80 characters */
     fgets(message, MAX_CHAR, stdin);
