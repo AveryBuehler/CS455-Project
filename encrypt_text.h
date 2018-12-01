@@ -1,0 +1,1 @@
+char *encrypt_text(char *str);
