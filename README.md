@@ -10,11 +10,19 @@ Run the file.
 >```cipher.exe```
 
 ## :dizzy: Example
-### Text Input
+### Keyboard Example
+###### Text Input
   >Go	ahead,	make	my	day.   
   
-### Text Output
+###### Text Output
 >Jr	dkhdg,	pdnh	pb	gdb.
+
+### File Example
+###### Example Input File
+![Text Input](https://i.imgur.com/HHE57Jm.jpg)
+
+###### Example Output File
+![Text Input](https://i.imgur.com/9aF6M97.jpg)
 
 ## :mag: Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
