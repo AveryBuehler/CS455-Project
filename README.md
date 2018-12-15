@@ -1,10 +1,20 @@
 # Caesar Cipher Encryption in C
 
 ## Installation
+Clone this repository:
+
+```git clone https://github.com/AveryBuehler/CS455-Project.git```
+
+Run the file:
+```cipher.exe```
+
 ### Windows
-Install the latest version of GCC
+Install the latest version of GCC. To check if it is installed:
 
 ```gcc --version```
+
+### Linux
+No dependencies. 
 
 ## Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
