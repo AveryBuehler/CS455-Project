@@ -10,7 +10,7 @@ Run the file.
 >```cipher.exe```
 
 ## Example
-![Alt Text](https://media.giphy.com/media/9AINMkrOERA93XP04t/giphy.gif)
+![](https://media.giphy.com/media/9AINMkrOERA93XP04t/giphy.gif)
 
 ## :mag: Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
