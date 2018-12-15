@@ -1,4 +1,4 @@
-# Caesar Cipher Encryption in C
+# :sparkles: Caesar Cipher Encryption in C
 
 ## :rocket: Installation
 Clone this repository:
