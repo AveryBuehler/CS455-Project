@@ -11,18 +11,18 @@ Run the file.
 
 ## :dizzy: Example
 ### Keyboard Example
-###### Text Input
+##### Text Input
   >Go	ahead,	make	my	day.   
   
-###### Text Output
+##### Text Output
 >Jr	dkhdg,	pdnh	pb	gdb.
 
 ### File Example
-###### Example Input File
-<img src="https://i.imgur.com/HHE57Jm.jpg" height="100">
+##### Example Input File
+<img src="https://i.imgur.com/HHE57Jm.jpg" height="120">
 
-###### Example Output File
-<img src="https://i.imgur.com/9aF6M97.jpg" height="100">
+##### Example Output File
+<img src="https://i.imgur.com/9aF6M97.jpg" height="120">
 
 ## :mag: Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
