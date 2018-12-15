@@ -1,7 +1,4 @@
-# Caesar Cipher Encryption
-
-## Language
-C
+# Caesar Cipher Encryption in C
 
 ## Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
