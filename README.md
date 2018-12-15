@@ -9,14 +9,6 @@ Run the file:
 
 ```cipher.exe```
 
-### Windows
-Install the latest version of GCC. To check if it is installed:
-
-```gcc --version```
-
-### Linux
-No dependencies. 
-
 ## Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
 Caesar.	 It	involves replacing	 each	 letter	 in	 a	 message	 with	 another letter	that is	a	fixed	
