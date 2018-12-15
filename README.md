@@ -9,7 +9,7 @@ Run the file:
 
 ```cipher.exe```
 
-## Project Details
+## :mag: Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
 Caesar.	 It	involves replacing	 each	 letter	 in	 a	 message	 with	 another letter	that is	a	fixed	
 number	of positions	later	in	the	alphabet.	(If	the	replacement	would	go	past	the	letter X, the	
