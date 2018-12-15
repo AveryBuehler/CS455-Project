@@ -19,10 +19,10 @@ Run the file.
 
 ### File Example
 ###### Example Input File
-![Text Input](https://i.imgur.com/HHE57Jm.jpg)
+<img src="https://i.imgur.com/HHE57Jm.jpg" height="200">
 
 ###### Example Output File
-![Text Input](https://i.imgur.com/9aF6M97.jpg)
+<img src="https://i.imgur.com/9aF6M97.jpg" height="200">
 
 ## :mag: Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
