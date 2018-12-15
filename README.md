@@ -1,7 +1,7 @@
 # Caesar Cipher Encryption in C
 
-## Demonstration
-![alt text](https://imgur.com/9trhSHY)
+## Installation
+![Alt Text](https://media.giphy.com/media/9AINMkrOERA93XP04t/giphy.gif)
 
 
 ## Project Details
