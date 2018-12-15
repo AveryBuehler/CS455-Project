@@ -14,9 +14,9 @@ should	be	shifted):
 >Encrypted	message:	Jr	dkhdg,	pdnh	pb	gdb.*  
   
   Notice that the program can decrypt a	message	if the user	enters 26 minus	the	original key:  
-  *Enter	message	to	be	encrypted:	Jr	dkhdg,	pdnh	pb	gdb.  
-Enter	shift	amount	(1-25):23  
-Encrypted	message:	Go	ahead,make	my	day*  
+  >*Enter	message	to	be	encrypted:	Jr	dkhdg,	pdnh	pb	gdb.  
+>Enter	shift	amount	(1-25):23  
+>Encrypted	message:	Go	ahead,make	my	day*  
   
     
 
