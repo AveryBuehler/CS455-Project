@@ -47,7 +47,7 @@ extension	of	.enc.	In	this	example,	the	original	file	name	is	message.txt,	so	th
 message	will	be	stored	in	a	file	named	message.txt.enc.	There’s	no	limit	on	the	size	of	the	file	
 to	be	encrypted	or	on	the	length	of	each	lien	in	the	file.
 
-## License
+## :books: License
 [MIT](https://choosealicense.com/licenses/mit/)
     
 
