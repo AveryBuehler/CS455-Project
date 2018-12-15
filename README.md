@@ -1,6 +1,6 @@
 # Caesar Cipher Encryption in C
 
-## 🚀Installation
+## :rocket: Installation
 Clone this repository:
 
 ```git clone https://github.com/AveryBuehler/CS455-Project.git```
