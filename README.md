@@ -1,5 +1,9 @@
 # Caesar Cipher Encryption in C
 
+## Demonstration
+![alt text](https://imgur.com/9trhSHY)
+
+
 ## Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
 Caesar.	 It	involves replacing	 each	 letter	 in	 a	 message	 with	 another letter	that is	a	fixed	
