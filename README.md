@@ -9,7 +9,7 @@ Run the file.
 
 >```cipher.exe```
 
-## Example
+## ⚡Example
 ### Text Input
   >Go	ahead,	make	my	day.   
   
