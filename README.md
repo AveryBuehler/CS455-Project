@@ -1,2 +1,2 @@
-# CS455-Project
+# Caesar Cipher Encryption
 Caesar Cipher in C.
