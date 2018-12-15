@@ -1,8 +1,9 @@
 # Caesar Cipher Encryption in C
 
 ## Installation
-![Alt Text](https://media.giphy.com/media/9AINMkrOERA93XP04t/giphy.gif)
-
+### Windows
+Install the latest version of GCC
+```gcc --version```
 
 ## Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
