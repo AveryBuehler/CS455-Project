@@ -3,6 +3,7 @@
 ## Installation
 ### Windows
 Install the latest version of GCC
+
 ```gcc --version```
 
 ## Project Details
