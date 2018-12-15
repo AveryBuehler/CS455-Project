@@ -10,10 +10,11 @@ Run the file.
 >```cipher.exe```
 
 ## Example
-### Text
-  >*Enter	message	to	be	encrypted:	Go	ahead,	make	my	day.  
->Enter	shift	amount	(1-25):3  
->Encrypted	message:	Jr	dkhdg,	pdnh	pb	gdb.* 
+### Text Input
+  >Go	ahead,	make	my	day.   
+  
+### Text Output
+>Jr	dkhdg,	pdnh	pb	gdb.
 
 ## :mag: Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
