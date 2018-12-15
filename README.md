@@ -9,7 +9,7 @@ Run the file.
 
 >```cipher.exe```
 
-## :dizzy: Example
+## :running: Example
 ### :computer: Keyboard Example
 ##### Text Input
   >Go	ahead,	make	my	day.   
