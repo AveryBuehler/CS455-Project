@@ -6,7 +6,7 @@ Clone this repository:
 ```git clone https://github.com/AveryBuehler/CS455-Project.git```
 
 Run the file:
-
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
 ```cipher.exe```
 
 ## :mag: Project Details
