@@ -1,9 +1,23 @@
+/* 
+ * Caesar Cipher Encryption Project
+ * --------------------------------
+ * Author:  Avery Buehler
+ * Class:   CS455 - System Programming
+ * Date:    14 December 2018
+ * 
+*/
+
+/*
+ * encrypt_text.c file
+ * -------------------
+ * This file is used for encrypting text.
+ */ 
+
 #include <stdio.h>
 
 char *encrypt_text(char *str);
 
 char *encrypt_text(char *str) {
-
     /* Asking for the shift amount */
     char *shift_char = malloc(sizeof(shift_char));
     int shift_num = 0;

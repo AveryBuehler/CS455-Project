@@ -1,3 +1,24 @@
+/* 
+ * Caesar Cipher Encryption Project
+ * --------------------------------
+ * Author:  Avery Buehler
+ * Class:   CS455 - System Programming
+ * Date:    14 December 2018
+ * 
+*/
+
+/*
+ * main.c file
+ * -------------------
+ * This file is the driver class for the project.
+ * 
+ * Dependencies
+ * -------------------
+ * encrypt_file.c - .txt file I/O
+ * encrypt.c - keyboard I/O
+ * encrypt_text.c - encryption function
+ */ 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "encrypt.c"
@@ -8,13 +29,16 @@
 #define option_keyboard 49
 #define option_file 50
 
+/* This will run until the user exits the program by pressing 0 */
 int main(void) {
     char option[1];
     while(option[0] != exit_program) {
-        printf("\n---Options--------------------\n");
-        printf("Read from keyboard ......... 1\n");
-        printf("Read from file ............. 2\n");
-        printf("Exit program ............... 0\n\n");
+        printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+        printf("     CAESAR CIPHER PROGRAM\n");
+        printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+        printf("Read from keyboard ---------- 1\n");
+        printf("Read from file -------------- 2\n");
+        printf("Exit program ---------------- 0\n\n");
         printf("Enter an option: ");
         fgets(option, option_file, stdin);
 

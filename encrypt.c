@@ -1,3 +1,22 @@
+/* 
+ * Caesar Cipher Encryption Project
+ * --------------------------------
+ * Author:  Avery Buehler
+ * Class:   CS455 - System Programming
+ * Date:    14 December 2018
+ * 
+*/
+
+/*
+ * encrypt.c file
+ * -------------------
+ * This file is used for keyboard I/O.
+ * 
+ * Dependencies
+ * -------------------
+ * encrypt_text.h - encryption function header
+ */ 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -30,7 +49,7 @@ void read_from_keyboard(void) {
 
     char *cipher_text = encrypt_text(message);
 
-    printf("Encrypted message: %s\n", cipher_text);
+    printf("Encrypted message: %s\n\n", cipher_text);
 
     /* Deallocating allocated memory space */
     free(message);
