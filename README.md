@@ -31,5 +31,11 @@ file	containing	the	message	to	be	encrypted:
 >*Enter	name	of	file	to	be	encrypted:	message.txt.  
 >Enter	shift	amount	(1-25):3*  
    
+   The	program	then	write	the	encrypted	message	to	a	file	with	the	same	name	but	an	added	
+extension	of	.enc.	In	this	example,	the	original	file	name	is	message.txt,	so	the	encrypted	
+message	will	be	stored	in	a	file	named	message.txt.enc.	There’s	no	limit	on	the	size	of	the	file	
+to	be	encrypted	or	on	the	length	of	each	lien	in	the	file.
+
+
     
 
