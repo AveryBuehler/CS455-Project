@@ -10,14 +10,14 @@ Run the file.
 >```cipher.exe```
 
 ## :dizzy: Example
-### Keyboard Example
+### :computer: Keyboard Example
 ##### Text Input
   >Go	ahead,	make	my	day.   
   
 ##### Text Output
 >Jr	dkhdg,	pdnh	pb	gdb.
 
-### File Example
+### :file_folder: File Example
 ##### Example Input File
 <img src="https://i.imgur.com/HHE57Jm.jpg" height="120">
 
