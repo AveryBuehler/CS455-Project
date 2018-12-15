@@ -3,11 +3,11 @@
 ## :rocket: Installation
 Clone this repository:
 
-```git clone https://github.com/AveryBuehler/CS455-Project.git```
+>```git clone https://github.com/AveryBuehler/CS455-Project.git```
 
 Run the file:
 
-```cipher.exe```
+>```cipher.exe```
 
 ## :mag: Project Details
 One	of	the oldest known encryption techniques is	the Caesar cipher, attributed	to Julius	
