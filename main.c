@@ -31,7 +31,7 @@
 
 /* This will run until the user exits the program by pressing 0 */
 int main(void) {
-    char option[1];
+    char *option = malloc(1);
     while(option[0] != exit_program) {
         printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
         printf("     CAESAR CIPHER PROGRAM\n");
@@ -40,7 +40,7 @@ int main(void) {
         printf("Read from file -------------- 2\n");
         printf("Exit program ---------------- 0\n\n");
         printf("Enter an option: ");
-        fgets(option, option_file, stdin);
+        fgets(option, sizeof(option), stdin);
 
         if(option[0] == option_keyboard) {
             read_from_keyboard();
@@ -54,5 +54,6 @@ int main(void) {
             printf("Invalid option number.\n");
         }
     }
+	free(option);
     return 0;
 }
