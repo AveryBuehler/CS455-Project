@@ -6,7 +6,7 @@
 </div>  
 
 <div align="center">
-  ![Caesar cipher](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png)
+  <img src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png" alt="Caesar cipher example")
 </div>
 <div align="center">  
   <sub>Made for CS455 - System Programming</sub>
