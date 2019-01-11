@@ -60,9 +60,10 @@
    - There is no limit on the size of the file to be encrypted or the length of the lines in the file. 
 
 ## Features
-- The web application is made entirely of **vanilla HTML**, **CSS**, and **JavaScript**
-- The application features a  **local leaderboard** utilizing the browser's local storage
-- Its only dependencies are **[Google Fonts](https://fonts.google.com/)** and **[Font Awesome 5.6.3](https://fontawesome.com/)**
+- **Dynamic memory allocation** based on file size and plaintext
+- **Cross-platform** between Windows and Linux for printing the working directory
+- Wide use of **pointers**
+- **Error handling**
 
 <sub>The console contains a bunch of information for debugging purposes, so you can cheat if you don't want to use too much brain power! </sub>
 
