@@ -125,7 +125,7 @@ char *encrypt_text(char *str) {
 ```
 
 ### encrypt_text.h
-This is used for encrypt_text declaration.
+This is used for the encrypt_text() declaration.
 
 ### encrypt_file.c
 This is used for encrypting files as per Project Description #2. Works on Windows & Linux operating systems.
