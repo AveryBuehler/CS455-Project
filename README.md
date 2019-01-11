@@ -44,6 +44,7 @@
       Enter shift amount (1-25): 23
       Encrypted message: Go ahead, make my day.
       ```
+      
       **Assumptions**
       - You may assume that the message does not exceed 80 characters. Characters other than letters are left unchanged. 
       - Lowercase letters should remain lowercase when encrypted; uppercase letters should remain uppercase as well.
@@ -55,7 +56,8 @@
       Enter shift amount (1-25): 3
       ```
       
-      The program should then write the encrypted message to a file with the same name but an added extension of `.enc`. In the example above, the original file name is `message.txt`, so the encrypted message will be stored in a file named `message.txt.enc`. 
+      The program should write the encrypted message to a file with the same name but an added extension of `.enc`. In the example above, the original file name is `message.txt`, so the encrypted message will be stored in a file named `message.txt.enc`.  
+      
       **Assumptions**
       - There is no limit on the size of the file to be encrypted or the length of the lines in the file. 
 
