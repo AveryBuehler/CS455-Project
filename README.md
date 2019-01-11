@@ -27,38 +27,36 @@
   >"The Caesar cipher is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of `3`, `D` would be replaced by `A`, `E` would become `B`, and so on. The method is named after Julius Caesar, who used it in his private correspondence."
   
 ## Project Description
-  <sub>Information from CS455 - System Programming</sub>
-  1. Write a program that encrypts a message using a Caesar cipher. The user will enter the plaintext (message to be encrypted) and the shift amount:
-  
-      ```
-      Enter message to be encrypted: Go ahead, make my day.
-      Enter shift amount (1-25): 3
-      Encrypted message: Jr dkhdg, pbnh gdb.
-      ```
+<sub>Information from CS455 - System Programming</sub>
+1. Write a program that encrypts a message using a Caesar cipher. The user will enter the plaintext (message to be encrypted) and the shift amount:
+```
+Enter message to be encrypted: Go ahead, make my day.
+Enter shift amount (1-25): 3
+Encrypted message: Jr dkhdg, pbnh gdb.
+```
       
-     Notice that the program can decrypt a message if the user enters 26 minus the original shift amount:  
+Notice that the program can decrypt a message if the user enters 26 minus the original shift amount:  
    
-      ```
-      Enter message to be encrypted: Jr dkhdg, pbnh gdb.
-      Enter shift amount (1-25): 23
-      Encrypted message: Go ahead, make my day.
-      ```
+```
+Enter message to be encrypted: Jr dkhdg, pbnh gdb.
+Enter shift amount (1-25): 23
+Encrypted message: Go ahead, make my day.
+```
       
-      **Assumptions**
-      - You may assume that the message does not exceed 80 characters. Characters other than letters are left unchanged. 
-      - Lowercase letters should remain lowercase when encrypted; uppercase letters should remain uppercase as well.
+**Assumptions**
+- You may assume that the message does not exceed 80 characters. Characters other than letters are left unchanged. 
+- Lowercase letters should remain lowercase when encrypted; uppercase letters should remain uppercase as well.
   
-  2. Modify the above program so that the program prompts the user to enter the name of a file containing the message to be encrypted:
+2. Modify the above program so that the program prompts the user to enter the name of a file containing the message to be encrypted:
   
-      ```
-      Enter name of file to be encrypted: message.txt
-      Enter shift amount (1-25): 3
-      ```
+```
+Enter name of file to be encrypted: message.txt
+Enter shift amount (1-25): 3
+```
+The program should write the encrypted message to the same file path but with an added extension of `.enc`. In the example above, the original file name is `message.txt`, so the encrypted message will be stored as `message.txt.enc`.  
       
-      The program should write the encrypted message to the same file path but with an added extension of `.enc`. In the example above, the original file name is `message.txt`, so the encrypted message will be stored as `message.txt.enc`.  
-      
-      **Assumptions**
-      - There is no limit on the size of the file to be encrypted or the length of the lines in the file. 
+**Assumptions**
+- There is no limit on the size of the file to be encrypted or the length of the lines in the file. 
 
 ## Features
 - The web application is made entirely of **vanilla HTML**, **CSS**, and **JavaScript**
