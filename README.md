@@ -15,10 +15,10 @@
 </div>
 
 ## Table of Contents
-- [Overview](#overview)
-  - [Background](#background)
-  - [Features](#features)
-  - [C Code](#c-code)
+- [Background](#background)
+- [Project Description](#project-descrption)
+- [Features](#features)
+- [C Code Samples](#c-code)
 - [Future Improvements](#future-improvements)
 
 ## Overview
