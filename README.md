@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Caesar Cipher Encryption Scheme</h1>
+  <h1>Caesar Cipher</h1>
 </div>
 <div align="center">
   <strong>An implementation of the Caesar cipher written entirely in C</strong>
