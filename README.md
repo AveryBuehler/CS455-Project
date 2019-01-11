@@ -29,7 +29,7 @@
   >For example, with a left shift of `3`, `D` would be replaced by `A`, `E` would become `B`, and so on. 
   >
   >The method is named after Julius Caesar, who used it in his private correspondence.
-  <div align="right"><a href="https://en.wikipedia.org/wiki/Caesar_cipher" target="_blank">Information obtained from Wikipedia</a></div>
+  <div align="right"><sub><a href="https://en.wikipedia.org/wiki/Caesar_cipher" target="_blank">Information obtained from Wikipedia</a></sub></div>
   
   
   To play Word Guesser, [click here](https://averybuehler.github.io/CS275-Final-Project/). It is being hosted on GitHub Pages.
