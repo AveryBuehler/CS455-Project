@@ -38,11 +38,11 @@
       
 Notice that the program can decrypt a message if the user enters 26 minus the original shift amount:
 
-    ```
-    Enter message to be encrypted: Jr dkhdg, pbnh gdb.
-    Enter shift amount (1-25): 23
-    Encrypted message: Go ahead, make my day.
-    ```
+	```
+	Enter message to be encrypted: Jr dkhdg, pbnh gdb.
+	Enter shift amount (1-25): 23
+	Encrypted message: Go ahead, make my day.
+	```
       
   **Assumptions**
   - You may assume that the message does not exceed 80 characters. Characters other than letters are left unchanged. 
