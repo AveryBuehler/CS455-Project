@@ -24,6 +24,10 @@
 
 ## Overview
   ### Background
+  >In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the >simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is >replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E >would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+  
+  
+  
   To play Word Guesser, [click here](https://averybuehler.github.io/CS275-Final-Project/). It is being hosted on GitHub Pages.
   
   The purpose of this game is to correctly guess the middle-section of a word. For example: if the screen displayed: `C_T`, the player    has to guess the letter which comes between `C` and `T`. While there are three potentially correct answers (`CAT`, `COT`, and `CUT`), there is only one answer which matters!
