@@ -7,7 +7,7 @@
 </div>  
 
 <div align="center">
-  <img src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png" alt="Caesar cipher example")
+  <img src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png" alt="Caesar cipher example">
 </div>
   
 <div align="center">  
