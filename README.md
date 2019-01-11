@@ -17,7 +17,6 @@
 ## Table of Contents
 - [Background](#background)
 - [Project Description](#project-descrption)
-  - [Examples](#examples)
 - [Features](#features)
 - [C Code Samples](#c-code)
 - [Future Improvements](#future-improvements)
@@ -36,17 +35,17 @@
     Encrypted message: Jr dkhdg, pbnh gdb.
     ```
       
-Notice that the program can decrypt a message if the user enters 26 minus the original shift amount:
+	Notice that the program can decrypt a message if the user enters 26 minus the original shift amount:
 
-	```
-	Enter message to be encrypted: Jr dkhdg, pbnh gdb.
-	Enter shift amount (1-25): 23
-	Encrypted message: Go ahead, make my day.
-	```
+	  ```
+	  Enter message to be encrypted: Jr dkhdg, pbnh gdb.
+	  Enter shift amount (1-25): 23
+	  Encrypted message: Go ahead, make my day.
+	  ```
       
-  **Assumptions**
-  - You may assume that the message does not exceed 80 characters. Characters other than letters are left unchanged. 
-  - Lowercase letters should remain lowercase when encrypted; uppercase letters should remain uppercase as well.
+   **Assumptions**
+   - You may assume that the message does not exceed 80 characters. Characters other than letters are left unchanged. 
+   - Lowercase letters should remain lowercase when encrypted; uppercase letters should remain uppercase as well.
   
 2. Modify the above program so that the program prompts the user to enter the name of a file containing the message to be encrypted:
   
@@ -57,8 +56,8 @@ Notice that the program can decrypt a message if the user enters 26 minus the or
   
   The program should write the encrypted message to the same file path but with an added extension of `.enc`. In the example above, the original file name is `message.txt`, so the encrypted message will be stored as `message.txt.enc`.  
       
-  **Assumptions**
-  - There is no limit on the size of the file to be encrypted or the length of the lines in the file. 
+   **Assumptions**
+   - There is no limit on the size of the file to be encrypted or the length of the lines in the file. 
 
 ## Features
 - The web application is made entirely of **vanilla HTML**, **CSS**, and **JavaScript**
