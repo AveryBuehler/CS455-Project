@@ -29,19 +29,20 @@
 ## Project Description
 <sub>Information from CS455 - System Programming</sub>
 1. Write a program that encrypts a message using a Caesar cipher. The user will enter the plaintext (message to be encrypted) and the shift amount:
-  ```
-  Enter message to be encrypted: Go ahead, make my day.
-  Enter shift amount (1-25): 3
-  Encrypted message: Jr dkhdg, pbnh gdb.
-  ```
+
+    ```
+    Enter message to be encrypted: Go ahead, make my day.
+    Enter shift amount (1-25): 3
+    Encrypted message: Jr dkhdg, pbnh gdb.
+    ```
       
 Notice that the program can decrypt a message if the user enters 26 minus the original shift amount:  
    
-  ```
-  Enter message to be encrypted: Jr dkhdg, pbnh gdb.
-  Enter shift amount (1-25): 23
-  Encrypted message: Go ahead, make my day.
-  ```
+    ```
+    Enter message to be encrypted: Jr dkhdg, pbnh gdb.
+    Enter shift amount (1-25): 23
+    Encrypted message: Go ahead, make my day.
+    ```
       
   **Assumptions**
   - You may assume that the message does not exceed 80 characters. Characters other than letters are left unchanged. 
@@ -49,10 +50,10 @@ Notice that the program can decrypt a message if the user enters 26 minus the or
   
 2. Modify the above program so that the program prompts the user to enter the name of a file containing the message to be encrypted:
   
-  ```
-  Enter name of file to be encrypted: message.txt
-  Enter shift amount (1-25): 3
-  ```
+    ```
+    Enter name of file to be encrypted: message.txt
+    Enter shift amount (1-25): 3
+    ```
   
   The program should write the encrypted message to the same file path but with an added extension of `.enc`. In the example above, the original file name is `message.txt`, so the encrypted message will be stored as `message.txt.enc`.  
       
