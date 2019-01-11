@@ -74,8 +74,9 @@ This is the driver class.
 ### encrypt.c
 This is used for keyboard I/O.
 ```c
-void read_from_keyboard(void);
 #define MAX_CHAR 81
+
+void read_from_keyboard(void);
 
 void read_from_keyboard(void) {
     char *message = malloc(sizeof(char) * MAX_CHAR);
@@ -94,10 +95,107 @@ void read_from_keyboard(void) {
 }
 ```
 
+### encrypt_text.c
+This is used for encrypting text as per Project Description #1.
+```
+char *encrypt_text(char *str);
+
+char *encrypt_text(char *str) {
+    char *shift_char = malloc(sizeof(shift_char));
+    int shift_num = 0;
+    do {
+        printf("Enter shift amount (1-25): ");
+        fgets(shift_char, sizeof(shift_num), stdin);
+        shift_num = atoi(shift_char);
+        if(shift_num < 1 || shift_num > 25) {
+            printf("Please enter a valid shift amount.\n");
+        }
+    }while(shift_num <1 || shift_num > 25);
+    for(int i = 0; str[i] != '\0'; i++) {
+        if((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122)) {
+            if(str[i] >= 97) {
+                str[i] = ((str[i] - 97) + shift_num)%26 + 97;
+            } else {
+                str[i] = ((str[i] - 65) + shift_num)%26 + 65;
+            }
+        }
+    }
+    return str;
+}
+```
+
+### encrypt_text.h
+This is used for encrypt_text declaration.
+
+### encrypt_file.c
+This is used for encrypting files as per Project Description #2. Works on Windows & Linux operating systems.
+```c
+#if defined(_WIN32) || defined(_WIN64)
+    #define PLATFORM_NAME "windows"
+    #define CWD_PLATFORM (cwd = _getcwd(NULL, 0)
+    #include <direct.h>
+#endif
+#if defined(__linux__)
+    #define PLATFORM_NAME "linux"
+    #define CWD_PATH_MAX PATH_MAX
+    #define CWD_PLATFORM (cwd = getcwd(NULL, 0)
+    #include <unistd.h>
+#endif
+#define MAX_FILE_SIZE 512
+
+void read_from_file(void);
+
+void read_from_file(void) {
+    char file_name[MAX_FILE_SIZE];
+    char *cwd;
+    char *text;
+    FILE *file;
+    long file_size;
+    size_t result;
+    printf("Enter the name of the file to be encrypted: ");
+    fgets(file_name, MAX_FILE_SIZE, stdin);
+    file_name[strcspn(file_name, "\n")] = 0;
+    if((file = fopen(file_name, "rb")) == NULL) {
+        perror("Cannot open file");
+        exit(EXIT_FAILURE);
+    }
+    fseek(file, 0L, SEEK_END);
+    file_size = ftell(file);
+    rewind(file);
+    text = malloc(file_size + 1);
+    text[file_size] = '\0';
+    if(text == NULL) {
+        perror("Insufficient memory");
+        exit(EXIT_FAILURE);
+    }
+    result = fread(text, 1, file_size, file);
+    if(result != file_size) {
+        perror("Error reading file");
+        exit(EXIT_FAILURE);
+    }
+    char *cipher_text = encrypt_text(text);
+    char *new_file = strcat(file_name, ".enc");
+    file = fopen(new_file, "wb");
+    fwrite(cipher_text, sizeof(char), strlen(cipher_text), file);
+    fclose(file);
+    if(CWD_PLATFORM) != NULL) {
+        if(PLATFORM_NAME == "windows") {
+            printf("Saved encrypted text to: %s\\%s\n", cwd, new_file);
+        }
+        else if(PLATFORM_NAME == "linux") {
+            printf("Saved encrypted text to: %s/%s\n", cwd, new_file);
+        }
+    } else {
+        perror("CWD error");
+        exit(EXIT_FAILURE);
+    }
+    free(text);
+}
+```
 
 ## Future Improvements
-- [ ] Allow the player to enter in their own set of words before playing
-- [ ] Make the web page responsive to various viewports (e.g., mobile, 4k monitors, etc.)
+- [ ] Add compatability with all operating systems
+- [ ] Add a GUI with C++
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
