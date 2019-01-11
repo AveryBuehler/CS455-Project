@@ -37,7 +37,7 @@
       Encrypted message: Jr dkhdg, pbnh gdb.
       ```
       
-   Notice that the program can decrypt a message if the user enters 26 minus the original shift amount:  
+     Notice that the program can decrypt a message if the user enters 26 minus the original shift amount:  
    
       ```
       Enter message to be encrypted: Jr dkhdg, pbnh gdb.
