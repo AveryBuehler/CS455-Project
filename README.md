@@ -22,12 +22,11 @@
 - [C Code Samples](#c-code)
 - [Future Improvements](#future-improvements)
 
-## Overview
-  ### Background
+## Background
   <sub><a href="https://en.wikipedia.org/wiki/Caesar_cipher" target="_blank">Information obtained from Wikipedia</a></sub>
   >"The Caesar cipher is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of `3`, `D` would be replaced by `A`, `E` would become `B`, and so on. The method is named after Julius Caesar, who used it in his private correspondence."
   
-  ### Project Description
+## Project Description
   <sub>Information from CS455 - System Programming</sub>
   1. Write a program that encrypts a message using a Caesar cipher. The user will enter the plaintext (message to be encrypted) and the shift amount:
   
@@ -61,14 +60,14 @@
       **Assumptions**
       - There is no limit on the size of the file to be encrypted or the length of the lines in the file. 
 
-### Features
+## Features
 - The web application is made entirely of **vanilla HTML**, **CSS**, and **JavaScript**
 - The application features a  **local leaderboard** utilizing the browser's local storage
 - Its only dependencies are **[Google Fonts](https://fonts.google.com/)** and **[Font Awesome 5.6.3](https://fontawesome.com/)**
 
 <sub>The console contains a bunch of information for debugging purposes, so you can cheat if you don't want to use too much brain power! </sub>
 
-### C Code Samples
+## C Code Samples
 
 #### main.c
 This is the driver class.
