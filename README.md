@@ -5,8 +5,9 @@
   <strong>An implementation of the Caesar cipher written entirely in C</strong>
 </div>  
 
-![Caesar cipher](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png)
-
+<div align="center">
+  ![Caesar cipher](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png)
+</div>
 <div align="center">  
   <sub>Made for CS455 - System Programming</sub>
 </div>
