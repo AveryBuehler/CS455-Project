@@ -68,48 +68,32 @@
 
 ## C Code Samples
 
-#### main.c
+### main.c
 This is the driver class.
+
+### encrypt.c
+This is used for keyboard I/O.
 ```c
-#include <stdio.h>
-#include <stdlib.h>
-#include "encrypt.c"
-#include "encrypt_text.c"
-#include "encrypt_file.c"
+void read_from_keyboard(void);
+#define MAX_CHAR 81
 
-#define exit_program 48
-#define option_keyboard 49
-#define option_file 50
-
-/* This will run until the user exits the program by pressing 0 */
-int main(void) {
-    char *option = malloc(1);
-    while(option[0] != exit_program) {
-        printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-        printf("     CAESAR CIPHER PROGRAM\n");
-        printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-        printf("Read from keyboard ---------- 1\n");
-        printf("Read from file -------------- 2\n");
-        printf("Exit program ---------------- 0\n\n");
-        printf("Enter an option: ");
-        fgets(option, sizeof(option), stdin);
-
-        if(option[0] == option_keyboard) {
-            read_from_keyboard();
-        }
-        else if(option[0] == option_file) {
-            read_from_file();
-        }
-        else if(option[0] == exit_program) {
-            printf("Exiting program.\n");
-        } else {
-            printf("Invalid option number.\n");
-        }
+void read_from_keyboard(void) {
+    char *message = malloc(sizeof(char) * MAX_CHAR);
+    if(message == NULL) {
+        printf("Insufficient memory.\n");
+        exit(EXIT_FAILURE);
     }
-	free(option);
-    return 0;
+    printf("Enter a message: ");
+    fgets(message, MAX_CHAR, stdin);
+    if((strlen(message) > 0) && (message[strlen(message) -1] == '\n')) {
+        message[strlen(message) - 1] = '\0';
+    }
+    char *cipher_text = encrypt_text(message);
+    printf("Encrypted message: %s\n\n", cipher_text);
+    free(message);
 }
 ```
+
 
 ## Future Improvements
 - [ ] Allow the player to enter in their own set of words before playing
