@@ -17,6 +17,7 @@
 ## Table of Contents
 - [Background](#background)
 - [Project Description](#project-descrption)
+  - [Examples](#examples)
 - [Features](#features)
 - [C Code Samples](#c-code)
 - [Future Improvements](#future-improvements)
