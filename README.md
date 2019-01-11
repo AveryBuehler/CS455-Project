@@ -56,7 +56,7 @@
       Enter shift amount (1-25): 3
       ```
       
-      The program should write the encrypted message to a file with the same name but an added extension of `.enc`. In the example above, the original file name is `message.txt`, so the encrypted message will be stored in a file named `message.txt.enc`.  
+      The program should write the encrypted message to the same file path but with an added extension of `.enc`. In the example above, the original file name is `message.txt`, so the encrypted message will be stored in a file named `message.txt.enc`.  
       
       **Assumptions**
       - There is no limit on the size of the file to be encrypted or the length of the lines in the file. 
