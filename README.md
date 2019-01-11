@@ -16,12 +16,13 @@
 
 ## Table of Contents
 - [Overview](#overview)
-  - [How to Play](#how-to-play)
+  - [How to Play](#background)
   - [Features](#features)
-- [Improvements](#improvements)
+  - [C Code](#c-code)
+- [Future Improvements](#future-improvements)
 
 ## Overview
-  ### How to Play
+  ### Background
   To play Word Guesser, [click here](https://averybuehler.github.io/CS275-Final-Project/). It is being hosted on GitHub Pages.
   
   The purpose of this game is to correctly guess the middle-section of a word. For example: if the screen displayed: `C_T`, the player    has to guess the letter which comes between `C` and `T`. While there are three potentially correct answers (`CAT`, `COT`, and `CUT`), there is only one answer which matters!
@@ -45,7 +46,7 @@ Once the player inevitably loses, they'll have the opportunity to compete for a 
 
 <sub>The console contains a bunch of information for debugging purposes, so you can cheat if you don't want to use too much brain power! </sub>
 
-## Improvements
+## Future Improvements
 - [ ] Allow the player to enter in their own set of words before playing
 - [ ] Make the web page responsive to various viewports (e.g., mobile, 4k monitors, etc.)
 
