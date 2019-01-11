@@ -16,7 +16,7 @@
 
 ## Table of Contents
 - [Overview](#overview)
-  - [How to Play](#background)
+  - [Background](#background)
   - [Features](#features)
   - [C Code](#c-code)
 - [Future Improvements](#future-improvements)
