@@ -1,6 +1,7 @@
 <div align="center">
   <h1>Caesar Cipher</h1>
 </div>
+
 <div align="center">
   <strong>An implementation of the Caesar cipher written entirely in C</strong>
 </div>  
@@ -8,6 +9,7 @@
 <div align="center">
   <img src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png" alt="Caesar cipher example")
 </div>
+  
 <div align="center">  
   <sub>Made for CS455 - System Programming</sub>
 </div>
