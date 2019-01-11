@@ -45,7 +45,7 @@
       Encrypted message: Go ahead, make my day.
       ```
       
-   You may assume that the message does not exceed 80 characters. Characters other than letters should be left unchanged. Lowercase    letters should remain lowercase when encrypted; uppercase letters should remain uppercase as well.
+      You may assume that the message does not exceed 80 characters. Characters other than letters should be left unchanged. Lowercase    letters should remain lowercase when encrypted; uppercase letters should remain uppercase as well.
   
   2. Modify the above program so that the program prompts the user to enter the name of a file containing the message to be encrypted:
   
