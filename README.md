@@ -97,7 +97,7 @@ void read_from_keyboard(void) {
 
 ### encrypt_text.c
 This is used for encrypting text as per Project Description #1.
-```
+```c
 char *encrypt_text(char *str);
 
 char *encrypt_text(char *str) {
