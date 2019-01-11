@@ -27,8 +27,15 @@
   <sub><a href="https://en.wikipedia.org/wiki/Caesar_cipher" target="_blank">Information obtained from Wikipedia</a></sub>
   >"The Caesar cipher is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of `3`, `D` would be replaced by `A`, `E` would become `B`, and so on. The method is named after Julius Caesar, who used it in his private correspondence."
   
-  
-  To play Word Guesser, [click here](https://averybuehler.github.io/CS275-Final-Project/). It is being hosted on GitHub Pages.
+  ### Project Description
+  <sub>Information from CS455 - System Programming</sub>
+  1. Write a program that encrypts a message using a Caesar cipher. The user will enter the plaintext (message to be encrypted) and the shift amount:
+  ```
+  Enter message to be encrypted: Go ahead, make my day.
+  Enter shift amount (1-25): 3
+  Encrypted message: Jr dkhdg, pbnh gdb.
+  ```
+  _Notice that the program can decrypt a message if the user enters 26 minus the original shift amount_
   
   The purpose of this game is to correctly guess the middle-section of a word. For example: if the screen displayed: `C_T`, the player    has to guess the letter which comes between `C` and `T`. While there are three potentially correct answers (`CAT`, `COT`, and `CUT`), there is only one answer which matters!
   
