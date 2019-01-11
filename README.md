@@ -35,21 +35,19 @@
   Enter shift amount (1-25): 3
   Encrypted message: Jr dkhdg, pbnh gdb.
   ```
-  _Notice that the program can decrypt a message if the user enters 26 minus the original shift amount_
-  
-  The purpose of this game is to correctly guess the middle-section of a word. For example: if the screen displayed: `C_T`, the player    has to guess the letter which comes between `C` and `T`. While there are three potentially correct answers (`CAT`, `COT`, and `CUT`), there is only one answer which matters!
-  
-  > Words are stored in the `words` object so feel free to add your own via the console if you wish 
-  
-  The player has to be quick in guessing, however, since there are only 5-seconds per round. If they fail to correctly fill-in the blank before the timer runs out, they will lose. If they correctly fill-in the blank, however, they will recieve points based on how difficult the word was.
-  
-Currently, there are three difficulties: **easy**, **medium**, and **hard**:
-- **Easy** words are worth +1 points each and are typically around 5 letters
-- **Medium** words are worth +2 points each and are typically around 6 letters
-- **Hard** words are worth +3 points each and are typically around 10 letters
-
-
-Once the player inevitably loses, they'll have the opportunity to compete for a spot on the coveted **local leaderboard**! 
+  _Notice that the program can decrypt a message if the user enters 26 minus the original shift amount:_
+  ```
+  Enter message to be encrypted: Jr dkhdg, pbnh gdb.
+  Enter shift amount (1-25): 23
+  Encrypted message:	Go ahead, make my day.
+  ```
+  You may assume that the message does not exceed 80 characters. Characters other than letters should be left unchanged. Lowercase letters should remain lowercase when encrypted; uppercase letters should remain uppercase as well.
+  2. Modify the above program so that the program prompts the user to enter the name of a file containing the message to be encrypted:
+  ```
+  Enter name of file to be encrypted: message.txt
+  Enter shift amount (1-25): 3
+  ```
+  The program should then write the encrypted message to a file with the same name but an added extension of `.enc`. In the example above, the original file name is `message.txt`, so the encrypted message will be stored in a file named `message.txt.enc`. There is no limit on the size of the file to be encrypted or the length of the lines in the file. 
 
 ### Features
 - The web application is made entirely of **vanilla HTML**, **CSS**, and **JavaScript**
