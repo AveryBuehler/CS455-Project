@@ -65,8 +65,6 @@
 - Wide use of **pointers**
 - **Error handling**
 
-<sub>The console contains a bunch of information for debugging purposes, so you can cheat if you don't want to use too much brain power! </sub>
-
 ## C Code Samples
 
 ### main.c
